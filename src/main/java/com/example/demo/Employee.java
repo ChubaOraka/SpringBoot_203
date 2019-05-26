@@ -1,12 +1,11 @@
 package com.example.demo;
 
-public class Song {
+public class Employee {
     private long id;
-    private String name;
-    private String artist;
-    private String album;
-    private int rating;
-    private int year;
+    private String firstName;
+    private String lastName;
+    private String ssn;
+    private String dob;
 
     public long getId() {
         return id;
@@ -16,43 +15,33 @@ public class Song {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public String getArtist() {
-        return artist;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setArtist(String artist) {
-        this.artist = artist;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public String getAlbum() {
-        return album;
+    public String getSsn() {
+        return ssn;
     }
 
-    public void setAlbum(String album) {
-        this.album = album;
+    public void setSsn(String ssn) { this.ssn = ssn; }
+
+    public String getDob() {
+        return dob;
     }
 
-    public int getRating() {
-        return rating;
-    }
-
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
+    public void setDob(String dob) {
+        this.dob = dob;
     }
 }

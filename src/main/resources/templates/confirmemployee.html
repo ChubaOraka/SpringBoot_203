@@ -6,10 +6,11 @@
     </head>
     <body>
         <p th:inline="text">
-            The song name was [[${song.name}]].<br />
-            The artist name is [[${song.artist}]].<br />
-            The song album is [[${song.album}]].<br />
-            The rating was [[${song.rating}]] and the year it came out on was [[${song.year}]].
+            The employee is [[${employee.firstName}]] [[${employee.lastName}]].<br />
+            <br />
+            This employee has the following details:<br />
+            Social Security Number: [[${employee.ssn}]] <br />
+            Date of Birth (DOB): [[${employee.dob}]].
         </p>
     </body>
 </html>
